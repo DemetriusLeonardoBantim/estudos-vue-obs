@@ -1,0 +1,16 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<div id="app">
+  <input type="text" placeholder="message" v-model="message.enter" />
+  <h1>{{message}}</h1>
+</div>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      message: 'Two way bind',
+    },
+    methods: {},
+  });
+</script>
